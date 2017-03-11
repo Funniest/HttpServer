@@ -8,7 +8,7 @@ Http server를 간단히 그림으로 표현해보았습니다.
 
 아래 그림처럼 Client가 Server에게 요청하면, 서버는 Request로 요청한 문서를 보내 줍니다.
 
-그림[1]
+![Alt text](https://github.com/Funniest/study/blob/master/Socket/Multi_Process/img/Multi_Process.PNG)
 
 ###Http Protocol
 위 그림에서 간략하게 설명되었지만, 조금 더 자세하게 알아봅시다.
