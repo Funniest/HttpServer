@@ -49,6 +49,8 @@ Connection: close
 
 ###소스코드
 
+Server는 Ubuntu 32bit nano에디터로 작성되었습니다.
+
 ####Server
 ```
 #include <stdio.h>
