@@ -1,5 +1,5 @@
-#Http Server
-###Http Server
+# Http Server
+### Http Server
 Http server는 웹 클라이언트가 웹 페이지를 요청하면 Http Server는 요청에 따라HTML문서를 전달합니다.
 
 또는 클라이언트로 부터 파일 등을 전달 받습니다.
@@ -10,7 +10,7 @@ Http server를 간단히 그림으로 표현해보았습니다.
 
 ![Alt text](https://github.com/Funniest/HttpServer/blob/master/img/HTTP_SERVER.PNG)
 
-###Http Protocol
+### Http Protocol
 위 그림에서 간략하게 설명되었지만, 조금 더 자세하게 알아봅시다.
 
 Http패킷은 위의 그림처럼 요청과 요청에 따른 응답이 있습니다.
@@ -47,11 +47,11 @@ Connection: close
 
 이제 위 패킷을 조금 분석해서 Simple HTTP Server를 제작하여 보겠습니다.
 
-###소스코드
+### 소스코드
 
 Server는 Ubuntu 32bit nano에디터로 작성되었습니다.
 
-####Server
+#### Server
 ```
 #include <stdio.h>
 #include <stdlib.h>
